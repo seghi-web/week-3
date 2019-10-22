@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>Check up your self</h1>
+    <p>1. I.......never tried american food.</p><br>
+    <input type="radio" name="s1" value="have" id="A1">have
+    <input type="radio" name="s1" value="haven't" id="A2">haven't
+    <input type="radio" name="s1" value="has" id="A3">has
+    <input type="radio" name="s1" value="none" id="A4">none
+    <br>
+    <p>2. At the weekends, I really love meeting.........with my friends.</p>
+    <input type="radio" name="s2" value="on" id="A5">on
+    <input type="radio" name="s2" value="up" id="A6">up
+    <input type="radio" name="s2" value="in" id="A7">in
+    <input type="radio" name="s2" value="all" id="A8">all
+    <br>
+    <p>3.If you........pictures, you will remember things better.</p>
+    <input type="radio" name="s3" value="use" id="A9">use
+    <input type="radio" name="s3" value="will use" id="A10">will use
+    <input type="radio" name="s3" value="using" id="A11">using
+    <input type="radio" name="s3" value="used" id="A12">used
+    <br>
+    <p>4. If you feel relaxed, you......... study better.</p>
+    <input type="radio" name="s4" value="would" id="A13">would
+    <input type="radio" name="s4"  value="will" id="A14">will
+    <input type="radio" name="s4" value="could" id="A15">could
+    <input type="radio" name="s4" value="should" id="A16">should
+    <br>
+    <P>5. He studies German,.......French.</P>
+    <input type="radio" name="s5" id="A17" value="and">and
+    <input type="radio" name="s5"  id="A18" value="as well as">as well
+    <input type="radio" name="s5" id="A19" value="instead of"> instead of
+    <input type="radio" name="s5" id="A20" value="a and b ">both
+    <br>
+    <p>6. If you.........teach the information to someone else, you will remember it better.</p>
+    <input type="radio" name="s6" id="A21" value="can">can
+    <input type="radio" name="s6"  id="A22" value="could">could
+    <input type="radio" name="s6" id="A23" value="will"> will
+    <input type="radio" name="s6" id="A24" value="should">should
+    <br>
+    <p>7. .......these subjects, we also study art and music.</p>
+    <input type="radio" name="s7" id="A25" value="Besides">Besides
+    <input type="radio" name="s7"  id="A26" value="In addition">In addition
+    <input type="radio" name="s7" id="A27" value="As well"> As well
+    <input type="radio" name="s7" id="A28" value="In stead of">In stead of
+    <br>
+    <p>8. Scientists are .........research all the time to try and find a cure for cancer.</p>
+    <input type="radio" name="s8" id="A29" value="do">do
+    <input type="radio" name="s8"  id="A30" value="doing">doing
+    <input type="radio" name="s8" id="A31" value="was doing"> was doing
+    <input type="radio" name="s8" id="A32" value="being done">being done
+    <br>
+    <p>9. Have you ever.......a mountain.</p>
+    <input type="radio" name="s9" id="A33" value="climbed">climbed
+    <input type="radio" name="s9"  id="A34" value="climbing">climbing
+    <input type="radio" name="s9" id="A35" value="climb"> climb
+    <input type="radio" name="s9" id="A36" value="have climbed">have climbed
+    <br>   
+    <p>10. You didn't like the film.........you?</p>
+    <input type="radio" name="s10" id="A37" value="did you">did you
+    <input type="radio" name="s10"  id="A38" value="isn't you">isn't you
+    <input type="radio" name="s10" id="A39" value="wasn't you"> wasn't you
+    <input type="radio" name="s10" id="A40" value="none">none
+    <br>  <br>
+
+    
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="check1()" style="background-color: red; color:white">Done</button>
+    
+
+    <script>
+        function check1(){
+    var i=0,c=0;
+    var ans=["A1","A6","A9","A15","A19","A21","A25","A30","A33","A37"];
+    while(i<ans.length){
+        if(document.getElementById(ans[i]).checked==true){
+            i++;
+            c++;
+        }
+        else{
+            i++;
+        }
+       
+       }
+       alert(`you got ${c} out of ${ans.length}`)
+      
+    }
+    </script>
+
+</body>
+</html>

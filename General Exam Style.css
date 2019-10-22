@@ -1,0 +1,221 @@
+#content{
+    width: 100%;
+    height: 70px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.726);
+    font: 800 Chaparral Pro Light ;
+    color: rgb(255, 0, 0);
+    font-size: 100px;
+    font-style: italic;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+#sub-content{
+    text-align: right;
+    margin-bottom: 100px;
+font-family: canne;
+font-size: 50px;
+font-family: Cezanne;
+padding-left: 350px;
+color: rgb(255, 0, 242);
+}
+body{
+    background-image: url(nav.jpg);
+}
+
+
+#subjects{
+
+}
+
+
+#nav
+{
+    height: 800px;
+    width: 250px;
+    background-color: rgba(255, 29, 29, 0.548);
+    float: left;
+
+    
+}
+#nav-sub
+{
+    width:250px;
+    height: 55px;
+    font-size: 45px;
+    background-color: rgba(253, 24, 24, 0.568);
+    font-family: Chaparral Pro Light;
+    font-style: italic;
+    color:black;
+    border: none;
+    font-weight:bold; 
+    outline: none;
+    
+}
+#nav-subject{
+    text-align: left;
+    width: 100%;
+    height: 45px;
+    background-color: rgba(108, 253, 24, 0.568);
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+line-break: 20px;
+outline: none;
+
+}
+#nav-subject:hover{
+    color: white;
+    background-color: green;
+    font-stretch: narrower;
+    font-weight: bolder;
+}
+
+
+
+
+
+#exam-page-1{
+    width: 850px;
+    height: 750px;
+    float: right;
+    background-color: white;
+    margin-right: 200px;
+    text-align: center;
+    border-radius:50px;
+}
+#exam-page-2{
+    width: 850px;
+    height: 750px;
+    float: right;
+    background-color: white;
+    margin-right: 200px;
+    text-align: center;
+    border-radius:50px;
+}
+#exam-page-3{
+    width: 850px;
+    height: 750px;
+    float: right;
+    background-color: white;
+    margin-right: 200px;
+    text-align: center;
+    border-radius:50px;
+}
+#exam-page-4{
+    width: 850px;
+    height: 750px;
+    float: right;
+    background-color: white;
+    margin-right: 200px;
+    text-align: center;
+    border-radius:50px;
+}
+#font{
+    font-size: 100px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    outline: 5px darkgreen solid;
+    background-color: blueviolet;
+    font-weight: bold;
+    text-align: center;
+    margin-top:70px;
+    color:rgba(24, 253, 43, 0.842);
+}
+#Start{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.548);
+    color:white;
+    border: solid cadetblue;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    align-content: center;
+
+
+}
+#Start:hover{
+    background-color: blueviolet;
+}
+#content1{
+width: 100%;
+height: 60px;
+background-color:  rgb(9, 255, 0);
+
+
+}
+#subjects
+{
+    height: 60px;
+    width:200px;
+    outline: none;
+box-sizing: border-box;
+background-color: rgb(9, 255, 0);
+color: white;
+font-size: 25px;
+border: none;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#search{
+    text-align: right;
+    float: right;
+    margin-top: px;
+    border: none;
+    height: 55px;
+    border-radius: 30px;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+#subjects:hover{
+    background-color: white;
+    color: black;
+}
+#search:hover{
+    background-color: rgb(224, 149, 149);
+}
+#welcome{
+    width: 850px;
+    height: 750px;
+    float: right;
+    background-color: white;
+    margin-right: 200px;
+    text-align: center;
+    border-radius:50px;
+}
+#checkup{
+    width: 450px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.747);
+    color:white;
+    border: solid cadetblue;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    align-content: center;
+margin-top: 150px;
+}
+#checkup:hover{
+    background-color: rgb(63, 228, 63);
+    font-weight: bold;
+    color: brown;
+font:italic;
+}

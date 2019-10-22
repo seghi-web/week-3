@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eng Test 2</title>
+</head>
+<body>
+        <h1>Check Up Your Self no.2</h1>
+ <p>1.I ________ a good film yesterday.</p>
+    <input type="radio" name="eng1" id="e1" value="have seen">have seen
+    <input type="radio" name="eng1"  id="e2" value="was seen">was seen
+    <input type="radio" name="eng1" id="e3" value="saw"> saw
+    <input type="radio" name="eng1" id="e4" value="seen">seen
+    <br> 
+    <p>2. I know the man _______ is coming.</p>
+    <input type="radio" name="eng2" id="e5" value="where">where
+    <input type="radio" name="eng2"  id="e6" value="which">which
+    <input type="radio" name="eng2" id="e7" value="whom">whom
+    <input type="radio" name="eng2" id="e8" value="who">who
+    <br> 
+    <p>3.The woman _____ leg is broken, is my sister.</p>
+    <input type="radio" name="eng3" id="e9" value="whatever">whatever
+    <input type="radio" name="eng3"  id="e10" value="whose">whose
+    <input type="radio" name="eng3" id="e11" value="who">who
+    <input type="radio" name="eng3" id="e12" value="whom">whom
+    <br> 
+    <p>4. You have to do _________ is right. </p>   
+    <input type="radio" name="eng4" id="e13" value="which">which
+    <input type="radio" name="eng4"  id="e14" value="who">who
+    <input type="radio" name="eng4" id="e15" value="whatever">whatever
+    <input type="radio" name="eng4" id="e16" value="whom">whom
+    <br> 
+    <p>5. I ___________ not be here next year.</p>
+    <input type="radio" name="eng5" id="e17" value="can">can
+    <input type="radio" name="eng5"  id="e18" value="would">would
+    <input type="radio" name="eng5" id="e19" value="will">will
+    <input type="radio" name="eng5" id="e20" value="could">could
+    <br> 
+    <p>6. I __________ French when I was a child.</p> 
+    <input type="radio" name="eng6" id="e21" value="was studied">was studied
+    <input type="radio" name="eng6"  id="e22" value="studied">studied
+    <input type="radio" name="eng6" id="e23" value="was study">was study
+    <input type="radio" name="eng6" id="e24" value="was studying">was studying
+    <br> 
+    <p>7. If he ________ moved to part of Eritrea, he ________ have  swimmed in the red sea. </p>
+    <input type="radio" name="eng7" id="e25" value="had/would">had/would
+    <input type="radio" name="eng7"  id="e26" value="have/will">have/will
+    <input type="radio" name="eng7" id="e27" value="would/had">would/had
+    <input type="radio" name="eng7" id="e28" value="none">none
+    <br> 
+    <p>8. To ____________ were you speaking?</p>
+    <input type="radio" name="eng8" id="e29" value="who">who
+    <input type="radio" name="eng8"  id="e30" value="what">what
+    <input type="radio" name="eng8" id="e31" value="whose">whose
+    <input type="radio" name="eng8" id="e32" value="none">none
+    <br> 
+    <p>9._______ did you meet on the way.</p>
+    <input type="radio" name="eng9" id="e33" value="who">who
+    <input type="radio" name="eng9"  id="e34" value="when">when
+    <input type="radio" name="eng9" id="e35" value="whose">whose
+    <input type="radio" name="eng9" id="e36" value="whatever">whatever
+    <br>     
+    <p>10.He ____________ listen carefully to the advice of the old people.</p>
+    <input type="radio" name="eng10" id="e37" value="must">must
+    <input type="radio" name="eng10"  id="e38" value="have to">have to
+    <input type="radio" name="eng10" id="e39" value="should">should
+    <input type="radio" name="eng10" id="e40" value="all">all
+    <br>   
+                    
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <button onclick="check2()" style="background-color: cyan; color:white">Done</button>
+    
+
+    <script>
+        function check2(){
+    var i=0,c=0;
+    var ans=["e3","e8","e10","e15","e19","e22","e25","e32","e33","e40"];
+    while(i<ans.length){
+        if(document.getElementById(ans[i]).checked==true){
+            i++;
+            c++;
+        }
+        else{
+            i++;
+        }
+       
+       }
+       alert(`you got ${c} out of ${ans.length}`)
+      
+    }
+    </script>
+
+
+
+
+</body>
+</html>

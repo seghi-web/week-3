@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <p>1.  Which of the following is a natural source of light?</p>
+        <input type="radio" name="sb1"  id="ac1">torch
+        <input type="radio" name="sb1"  id="Ac2">bulb
+        <input type="radio" name="sb1"  id="Ac3">sun
+        <input type="radio" name="sb1"  id="Ac4">candle
+        <br><br>
+        <p>2.  One of the following is a man-made light source</p>
+        <input type="radio" name="sb2"  id="Ac5">lamp
+        <input type="radio" name="sb2"  id="Ac6">star
+        <input type="radio" name="sb2"  id="Ac7">sun
+        <input type="radio" name="sb2"  id="Ac8">fire-flies
+        <br><br>
+        <p>3. A single line with an arrow that shows the direction of light is a</p>
+        <input type="radio" name="sb3"  id="Ac9">ray
+        <input type="radio" name="sb3"  id="Ac10">beam
+        <input type="radio" name="sb3"  id="Ac11">shadow
+        <input type="radio" name="sb3"  id="Ac12">eclipse
+        <br><br>
+        <p> 4. Materials that allow light to pass through completely are </p>
+        <input type="radio" name="sb4"  id="Ac13">translucent
+        <input type="radio" name="sb4"  id="Ac14">transparent
+        <input type="radio" name="sb4"  id="Ac15">opaque
+        <input type="radio" name="sb4"  id="Ac16">transport
+        <br><br>
+        <p>5. The inner dark part of a shadow is </p>
+        <input type="radio" name="sb5"  id="Ac17">umbra
+        <input type="radio" name="sb5"  id="Ac18">penumbra
+        <input type="radio" name="sb5"  id="Ac19">transparent
+        <input type="radio" name="sb5"  id="Ac20">translucent
+        <br><br>
+        <p>6.  A mirror with a flat polished surface is a </p>
+        <input type="radio" name="sb6"  id="Ac21">curved mirror
+        <input type="radio" name="sb6"  id="Ac22">plane mirror
+        <input type="radio" name="sb6"  id="Ac23">concave mirror
+        <input type="radio" name="sb6"  id="Ac24">convex mirror
+        <br><br>
+        <p>7.  Which property is used in a periscope?</p>
+        <input type="radio" name="sb7"  id="Ac25">reflection
+        <input type="radio" name="sb7"  id="Ac26">refraction
+        <input type="radio" name="sb7"  id="Ac27">dispersion
+        <input type="radio" name="sb7"  id="Ac28">transmission
+        <br><br>
+        <p>8.  The number of colours in a white light are</p>
+        <input type="radio" name="sb8"  id="Ac29">five
+        <input type="radio" name="sb8"  id="Ac30">six
+        <input type="radio" name="sb8"  id="Ac31">seven
+        <input type="radio" name="sb8"  id="Ac32">eight
+        <br><br>
+        <p>9. Which of the following is not true about air?</p>
+        <input type="radio" name="sb9"  id="Ac33">It has weight
+        <input type="radio" name="sb9"  id="Ac34">It is matter
+        <input type="radio" name="sb9"  id="Ac35">It has a definite shape
+        <input type="radio" name="sb9"  id="Ac36">It occupies space
+        <br><br>
+        <p>10. The percentage of carbon dioxide gas in the air is</p>
+        <input type="radio" name="sb10"  id="Ac37">78%
+        <input type="radio" name="sb10"  id="Ac38">21%
+        <input type="radio" name="sb10"  id="Ac39">1%
+        <input type="radio" name="sb10"  id="Ac40">0.03%
+        <br><br>
+        
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="check2()" style="background-color: crimson; Color:white ">Done</button>
+        <script>
+            function check2(){
+                  var i=0,c=0;
+                  var ans
+                  ans=["","","","","","","","","",""]
+                  while(i<ans.length){
+                   if(document.getElementById(ans[i].checked==true)){
+                      i++;
+                      c++;
+                    }
+                  else{
+                      i++;
+                  }
+                }
+              alert(`you got ${c} out of ${ans.length}`)
+    
+    
+            }
+    
+        
+        </script>
+      
+    
+</body>
+</html>

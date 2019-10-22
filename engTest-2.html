@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p>I immigrated to Sudan</p><br>
+    <p>I emigrated from Eritrea</p>
+    <h1>check up your self</h1>
+    <p>1, it is important to understand how other cultures behave so you dont't cause.......</p>
+    <input type="radio" name="s11" value="offence" id="A41">offence
+    <input type="radio" name="s11" value="problem" id="A42">problem
+    <input type="radio" name="s11" value="disaster" id="A43">disaster
+    <input type="radio" name="s11" value="behaviour" id="A44">behaviour
+    <br><br>
+    <p>2, dawit is the boss, you need to speak to .......</p>
+    <input type="radio" name="s12" value="it" id="A45">it
+    <input type="radio" name="s12" value="him" id="A46">him
+    <input type="radio" name="s12" value="her" id="A47">her
+    <input type="radio" name="s12" value="them" id="A48">them
+    <br><br>
+    <p>3, she .......supper with us last friday. </p>
+    <input type="radio" name="s13"  id="A49">hadn't
+    <input type="radio" name="s13"  id="A50">no had
+    <input type="radio" name="s13"  id="A51">didn't have got
+    <input type="radio" name="s13"  id="A52">didn't have
+    <br><br>
+    <p>4, have you ........ .</p>
+    <input type="radio" name="s14"  id="A53">got any friends in barcelona 
+    <input type="radio" name="s14"  id="A54">not got not friends in barcelona
+    <input type="radio" name="s14"  id="A55">in barcelona any friends
+    <input type="radio" name="s14"  id="A56">friends in barcelona got
+    <br><br>
+    <p>5, we haven't got..........mineral water. </p>
+    <input type="radio" name="s15"  id="A57">a lot 
+    <input type="radio" name="s15"  id="A58">little
+    <input type="radio" name="s15"  id="A59">too
+    <input type="radio" name="s15"  id="A60">much
+    <br><br>
+    <p>6, she arrived .........khartoum airport half an hour late </p>
+    <input type="radio" name="s16"  id="A61">since  
+    <input type="radio" name="s16"  id="A62">for
+    <input type="radio" name="s16"  id="A63">during
+    <input type="radio" name="s16"  id="A64">none of them
+    <br><br>
+    <p>7, don't start ...........that's for babies</p>
+    <input type="radio" name="s17"  id="A65">to crying! 
+    <input type="radio" name="s17"  id="A66">crying!
+    <input type="radio" name="s17"  id="A67">cry!
+    <input type="radio" name="s17"  id="A68">in crying!
+    <br><br>
+    <p>8, you live upstairs from me,........? </p>
+    <input type="radio" name="s18"  id="A69">do you 
+    <input type="radio" name="s18"  id="A70">are you
+    <input type="radio" name="s18"  id="A71">don't you
+    <input type="radio" name="s18"  id="A72">didn't you
+    <br><br>
+    <p>9, don't forget .......... those letters.</p>
+    <input type="radio" name="s19"  id="A73">to post 
+    <input type="radio" name="s19"  id="A74">posted
+    <input type="radio" name="s19"  id="A75">to posting
+    <input type="radio" name="s19"  id="A76">post
+    <br><br>
+    <p>10, they .............to canada next year.  </p>
+    <input type="radio" name="s20"  id="A77">went 
+    <input type="radio" name="s20"  id="A78">had gone 
+    <input type="radio" name="s20"  id="A79">are going
+    <input type="radio" name="s20"  id="A80">go
+    <br><br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="check2()" style="background-color: crimson; Color:white ">Done</button>
+    <script>
+        function check2(){
+              var i=0,c=0;
+              var ans;
+              ans=["","","","","","","","","",""]
+              while(i<ans.length){
+               if(document.getElementById(ans[i]).checked==true){
+                  i++;
+                  c++;
+                }
+              else{
+                  i++;
+              }
+            }
+          alert(`you got ${c} out of ${ans.length}`)
+
+
+        }
+
+    
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+          <h1>Science Test-5</h1>
+        <p>1. In which of the following activities is work not done?</p>
+        <input type="radio" name="se1"  id="ae1">pushing a bicycle along the road
+        <input type="radio" name="se1"  id="ae2">writing a letter with a pen
+        <input type="radio" name="se1"  id="ae3">a ball
+        <input type="radio" name="se1"  id="ae4">a stone kept on the ground.
+        <br><br>
+        <p>2.  When a force moves an object, the work done depends on</p>
+        <input type="radio" name="se2"  id="ae5">the size of the force only
+        <input type="radio" name="se2"  id="ae6">the distance the object moves only
+        <input type="radio" name="se2"  id="ae7">both the size of the force and the distance the object moves
+        <input type="radio" name="se2"  id="ae8">how fast the object moves
+        <br><br>
+        <p>3.  The earth’s main source of energy is</p>
+        <input type="radio" name="se3"  id="ae9">fuels
+        <input type="radio" name="se3"  id="ae10">sun 
+        <input type="radio" name="se3"  id="ae11">running water
+        <input type="radio" name="se3"  id="ae12">wind
+        <br><br>
+        <p>4.  The form of energy stored in fuels is</p>
+        <input type="radio" name="se4"  id="ae13">electrical energy
+        <input type="radio" name="se4"  id="ae14"> kinetic energy 
+        <input type="radio" name="se4"  id="ae15">light energy
+        <input type="radio" name="se4"  id="ae16">chemical energy
+        <br><br>
+        <p>5. Which one of the following does not have kinetic energy?</p>
+        <input type="radio" name="se5"  id="ae17">a stone at the highest point when thrown up
+        <input type="radio" name="se5"  id="ae18">a feather falling down
+        <input type="radio" name="se5"  id="ae19">a jet plane taking off
+        <input type="radio" name="se5"  id="ae20">a wind blowing
+        <br><br>
+        <p>6. Ice melts because of</p>
+        <input type="radio" name="se6"  id="ae21">kinetic energy 
+        <input type="radio" name="se6"  id="ae22">heat energy
+        <input type="radio" name="se6"  id="ae23">potential energy
+        <input type="radio" name="se6"  id="ae24">sound energy
+        <br><br>
+        <p>7. One of the following is not a form of energy.</p>
+        <input type="radio" name="se7"  id="ae25">heat
+        <input type="radio" name="se7"  id="ae26">light 
+        <input type="radio" name="se7"  id="ae27">force
+        <input type="radio" name="se7"  id="ae28">sound
+        <br><br>
+        <p>8. Which one of the following contains only sources of    electrical  energy?</p>
+        <input type="radio" name="se8"  id="ae29">torch, generator and dry cell
+        <input type="radio" name="se8"  id="ae30">dry cell, radio and generator
+        <input type="radio" name="se8"  id="ae31">solar cell, calculator and car battery
+        <input type="radio" name="se8"  id="ae32">dry cell, car battery and generator
+        <br><br>
+        <p>9. Which one of the following energy sources is likely to be exhausted 
+            if the world continues to use it at the same rate?</p>
+        <input type="radio" name="se9"  id="ae33">oil
+        <input type="radio" name="se9"  id="ae34">running water
+        <input type="radio" name="se9"  id="ae35">wind 
+        <input type="radio" name="se9"  id="ae36">Sun
+        <br><br>
+        <p>10. Power is</p>
+        <input type="radio" name="se10"  id="ae37">how great a force is being used
+        <input type="radio" name="se10"  id="ae38">the ratio of the work done to the time taken
+        <input type="radio" name="se10"  id="ae39">the force multiplied by the distance
+        <input type="radio" name="se10"  id="ae40">how much work is done
+        <br><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button onclick="checksct5()" style="background-color: crimson; Color:white ">Done</button>
+        <script>
+            function checksct5(){
+                  var i=0,c=0;
+                  var ans;
+                  ans=["","","","","","","","","",""]
+                  while(i<ans.length){
+                   if(document.getElementById(ans[i]).checked==true){
+                      i++;
+                      c++;
+                    }
+                  else{
+                      i++;
+                  }
+                }
+              alert(`you got ${c} out of ${ans.length}`)
+    
+    
+            }
+    
+        
+        </script>
+      
+    
+</body>
+</html>
